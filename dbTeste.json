@@ -1,0 +1,52 @@
+{
+    "produtos": [
+        {
+            "id": 1,
+            "nome": "Camiseta preta oversized",
+            "preco": 59.9,
+            "imagem": "/images/camiseta-preta.jpg"
+        },
+        {
+            "id": 2,
+            "nome": "Camiseta branca oversized",
+            "preco": 59.9,
+            "imagem": "/images/camiseta-branca.jpg"
+        },
+        {
+            "id": 3,
+            "nome": "Calça jeans preta",
+            "preco": 119.9,
+            "imagem": "/images/calca-preta.jpg"
+        },
+        {
+            "id": 4,
+            "nome": "Calça jeans caqui",
+            "preco": 119.9,
+            "imagem": "/images/calca-caqui.jpg"
+        },
+        {
+            "id": 5,
+            "nome": "Meia branca cano alto",
+            "preco": 19.9,
+            "imagem": "/images/meia-branca.jpg"
+        },
+        {
+            "id": 6,
+            "nome": "Meia preta cano alto",
+            "preco": 19.9,
+            "imagem": "/images/meia-preta.jpg"
+        },
+        {
+            "id": 7,
+            "nome": "Tênis preto casual",
+            "preco": 699.9,
+            "imagem": "/images/tenis-preto.jpg"
+        },
+        {
+            "id": 8,
+            "nome": "Tênis branco esportivo",
+            "preco": 699.9,
+            "imagem": "/images/tenis-branco.jpg"
+        }
+    ]
+}

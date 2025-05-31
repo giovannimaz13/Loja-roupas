@@ -1,0 +1,107 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+  padding: 20px;
+}
+
+/* Título da loja */
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Grid de produtos */
+.produtos-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+/* Cartão do produto */
+.produto-card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s;
+}
+
+.produto-card:hover {
+  transform: scale(1.02);
+}
+
+/* Imagem do produto */
+.produto-imagem {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Detalhes do produto */
+.produto-info {
+  padding: 15px;
+}
+
+.produto-info h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.produto-info p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.produto-info .preco {
+  font-weight: bold;
+  color: #009688;
+  margin-bottom: 10px;
+}
+
+/* Botão de adicionar/remover */
+.botao {
+  display: inline-block;
+  background-color: #009688;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.botao:hover {
+  background-color: #00796b;
+}
+
+/* Carrinho */
+.carrinho-container {
+  margin-top: 40px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.carrinho-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.resumo-total {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 18px;
+  color: #333;
+}
